@@ -180,6 +180,7 @@ def UCS(g:Graph, sc:pygame.Surface):
 def AStar(g:Graph, sc:pygame.Surface):
     print('Implement A* algorithm')
 
+#df
     open_set = {}
     open_set[g.start.value] = 0
     closed_set:list[int] = []
